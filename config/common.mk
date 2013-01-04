@@ -21,7 +21,7 @@ $(call inherit-product, frameworks/base/data/videos/VideoPackage2.mk)
 PRODUCT_COPY_FILES += \
     vendor/orca/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
     vendor/orca/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
-    vendor/orca/prebuilt/common/bin/50-xy.sh:system/addon.d/50-xy.sh \
+    vendor/orca/prebuilt/common/bin/50-orca.sh:system/addon.d/50-orca.sh \
     vendor/orca/prebuilt/common/bin/blacklist:system/addon.d/blacklist
 
 ## Build Information Properties
