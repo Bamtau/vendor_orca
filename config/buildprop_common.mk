@@ -41,7 +41,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES +=  \
     vendor/orca/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf \
     vendor/orca/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf \
-    vendor/orca/prebuilt/common/etc/init.local.rc:root/init.xylon.rc \
+    vendor/orca/prebuilt/common/etc/init.local.rc:root/init.orca.rc \
     vendor/orca/prebuilt/common/bin/sysinit:system/bin/sysinit
 
 # 01010101010101010010101010
