@@ -49,6 +49,7 @@ include vendor/orca/config/buildprop_common.mk
 
 # CyanogenMod Packages
 PRODUCT_PACKAGES += \
+        Trebuchet \
         CMFileManager \
         LockClock \
         audio_effects.conf
